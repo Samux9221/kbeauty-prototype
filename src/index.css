@@ -66,3 +66,17 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+@import "tailwindcss";
+
+@theme {
+  /* Nossa paleta de cores K-Beauty */
+  --color-k-bg: #FDFCFB;
+  --color-k-text: #2D2D2D;
+  --color-k-accent: #E8D5D1;
+  --color-k-border: #F0EBE9;
+  
+  /* Nossa tipografia Premium */
+  --font-sans: "Inter", sans-serif;
+  --font-serif: "Playfair Display", serif;
+}
